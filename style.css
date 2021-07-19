@@ -1,0 +1,103 @@
+body
+{
+    /* background-color: rgb(193, 233, 233); */
+    background: linear-gradient(180deg, rgb(186, 186, 189),rgb(49, 46, 46));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200vh 130vh;
+    overflow: hidden;
+}
+h1
+{
+    text-align: center;
+    font-family: gabriola;
+    font-size: 50px;
+    margin: -1%;
+    font-weight: bolder;
+    text-shadow: 2px 2px 6px rgba(48, 48, 48, 0.74);
+}
+.game-info
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: rgb(2, 7, 59);
+    margin: -0.1% 1% -0.1% 1%;
+    background-color: rgb(101, 101, 101);
+    padding-top: -1%;
+	padding-right: 3%;
+	padding-bottom: -1%;
+	padding-left: 3%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px rgba(48, 48, 48, 0.74);
+}
+.game-container
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,125px);
+    grid-template-rows: repeat(3,125px);
+    gap: 10px;
+}
+.block
+{
+    width: 120px;
+    height: 120px;
+    background-color: rgba(173, 216, 230, 0.685);
+    box-shadow: 2px 2px 6px rgba(48, 48, 48, 0.74);
+    /* margin: 1.5%; */
+    border-radius: 10%;
+    /* border: 2px outset rgb(109, 34, 34); */
+    font-size: 80px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 85);
+    text-shadow: 2px 2px 6px rgba(22, 22, 22, 0.445);
+    cursor: pointer;
+    user-select: none;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.block:hover
+{
+    background: linear-gradient(65deg, rgba(173, 216, 230, 0.575), rgba(128, 128, 128, 0.548));
+}
+.btn
+{
+    padding: 1.2% 3% 1.2% 3%;
+    margin: 1%;
+    background: linear-gradient(50deg, rgba(129, 129, 138, 0.568), rgba(0, 0, 0, 0.575));
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    height: 50px;
+    width: 150px;
+    color: white;
+}
+#turn
+{
+    color: rgb(0, 54, 218);
+    font-size: 80px;
+	font-family: colonna mt;
+}
+h2
+{
+    font-size: 50px;
+    font-family: cursive;
+    margin: 0%;
+    text-shadow: 2px 2px 6px rgba(48, 48, 48, 0.74);
+}
+
+#result
+{
+    height: 70px;
+    color: rgb(6, 6, 115);
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 6px rgba(48, 48, 48, 0.74);
+}
